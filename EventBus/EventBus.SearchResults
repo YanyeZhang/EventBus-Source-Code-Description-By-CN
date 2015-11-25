@@ -1,0 +1,11 @@
+---- eventInheritance 匹配 (5 in 0 文件) ----
+EventBus.java (src\de\greenrobot\event):    private final boolean eventInheritance;
+EventBus.java (src\de\greenrobot\event):        eventInheritance = builder.eventInheritance;
+EventBus.java (src\de\greenrobot\event):            if (eventInheritance) {
+EventBus.java (src\de\greenrobot\event):        if (eventInheritance) {
+---- eventTypesCache 匹配 (5 in 0 文件) ----
+EventBus.java (src\de\greenrobot\event):    private static final Map<Class<?>, List<Class<?>>> eventTypesCache = new HashMap<Class<?>, List<Class<?>>>();
+EventBus.java (src\de\greenrobot\event):        eventTypesCache.clear();
+EventBus.java (src\de\greenrobot\event):        synchronized (eventTypesCache) {
+EventBus.java (src\de\greenrobot\event):            List<Class<?>> eventTypes = eventTypesCache.get(eventClass);
+EventBus.java (src\de\greenrobot\event):                eventTypesCache.put(eventClass, eventTypes);
